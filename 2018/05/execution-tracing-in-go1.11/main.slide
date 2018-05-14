@@ -173,6 +173,16 @@ A task can end in a different goroutine than the goroutine it started at:
 
 .image images/flying.png
 
+* Current limitations
+
+.background images/background.png
+
+*1.* Regions can only start and stop in the same goroutine
+
+*2.* The output format of the execution tracer is hard to parse
+
+*3.* *go*tool*trace* is the only canonical tool that can understand this format.
+
 * Try it yourself!
 
 .background images/background.png
