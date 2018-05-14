@@ -1,6 +1,6 @@
 Execution tracing in Go 1.11
-Incoming changes in runtime/trace package
-19:30 14 May 2018
+Upcoming changes in runtime/trace package
+19:00 14 May 2018
 Tags: golang, runtime, tracing
 
 Ilya Danilkin
