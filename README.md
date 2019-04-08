@@ -4,6 +4,8 @@ Talks about Go which I occasionally do on various meetups and conferences.
 
 ## 2019
 
+### GopherCon 2019 pre-release
+
 [Dynamic app configuration](https://talks.godoc.org/github.com/nezorflame/golang-talks/2019/04/dynamic-configs/main.slide)
 
 ## 2018
