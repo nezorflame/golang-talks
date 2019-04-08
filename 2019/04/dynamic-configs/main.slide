@@ -1,0 +1,89 @@
+Dynamic app configuration
+Configuring your apps and services, dynamically
+19:30 11 Apr 2019
+Tags: golang, config, etcd, vault
+
+Ilya Danilkin
+Senior Server Developer, Tech Ozon
+idanilkin@ozon.ru
+https://habr.com/ru/company/ozontech
+@nezorflame
+
+* Quick roundup on configs
+
+.background images/background.png
+
+    In computing, configuration files (or config files) are files used to configure the parameters
+    and initial settings for some computer programs.
+.caption © [[https://en.wikipedia.org/wiki/Configuration_file][️Wikipedia]]
+
+*Main*purposes:*
+
+- Application setup
+- Removing sensitive info from the source
+- Changing behaviour without recompilation
+
+.image images/TEACHING_GOPHER.png 200 _
+
+* Static configs
+
+.background images/background.png
+
+Pros:
+
+- 1
+- 2
+- 3
+
+.image images/LazyGopher.png 230 _
+
+* Static configs
+
+.background images/background.png
+
+Cons:
+
+- 1
+- 2
+- 3
+
+* Dynamic configs
+
+.background images/background.png
+
+Pros:
+
+- 1
+- 2
+- 3
+
+.image images/MovingGopher.png 230 _
+
+* Dynamic configs
+
+.background images/background.png
+
+Cons:
+
+- 1
+- 2
+- 3
+
+* etcd
+
+.background images/background.png
+
+* Vault
+
+.background images/background.png
+
+.image images/HASHICORP_GOPHERS.png 200 _
+
+* Demo time!
+
+.background images/background.png
+
+* Conclusion
+
+.background images/background.png
+
