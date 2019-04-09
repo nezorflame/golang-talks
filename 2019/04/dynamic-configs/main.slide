@@ -23,13 +23,11 @@ https://github.com/nezorflame
 
 * Quick roundup on configs
 
-.background images/background.png
-
     In computing, configuration files (or config files) are files used to configure the parameters
     and initial settings for some computer programs.
-.caption © [[https://en.wikipedia.org/wiki/Configuration_file][️Wikipedia]]
+                                                                                        © Wikipedia
 
-*Main*purposes:*
+Main purposes:
 
 - Application setup
 - Removing sensitive info from the source
@@ -42,8 +40,6 @@ https://github.com/nezorflame
 .background images/background.png
 
 * Static configs
-
-.background images/background.png
 
 Pros:
 
@@ -63,8 +59,6 @@ Cons:
 
 * Dynamic configs
 
-.background images/background.png
-
 Different approaches:
 
 - Local config with live reload (e.g. [[https://github.com/spf13/viper][Viper]] + [[https://github.com/fsnotify/fsnotify][fsnotify]])
@@ -75,7 +69,6 @@ Different approaches:
 
 * etcd
 
-.background images/background.png
 .link https://github.com/etcd-io/etcd
 
 - Well-defined, user-facing API (gRPC)
@@ -84,8 +77,6 @@ Different approaches:
 - Properly distributed using [[https://raft.github.io/][Raft]] consensus algorithm
 
 * Dynamic configs
-
-.background images/background.png
 
 Pros:
 
@@ -105,8 +96,6 @@ Cons:
 
 * Secrets
 
-.background images/background.png
-
 - Technically, still a config...
 - ...but should be separated from publicly-available config
 - Needs protection from external access
@@ -115,7 +104,6 @@ Cons:
 
 * Vault
 
-.background images/background.png
 .link https://github.com/hashicorp/vault
 
 - Secure secret storage
@@ -132,8 +120,6 @@ Cons:
 
 * realtime-config-go
 
-.background images/background.png
-
 - *Client* and *Manager* interfaces
 - *Provider* interface for different config providers
 - Supports etcd, ENV, values.yaml (Helm integration), Vault
@@ -144,27 +130,21 @@ Cons:
 
 * Client
 
-.background images/background.png
 .image images/client.png 400 _
 
 * Client Provider
 
-.background images/background.png
 .image images/client_provider.png 350 _
 
 * Manager
 
-.background images/background.png
 .image images/manager.png 350 _
 
 * Manager Provider
 
-.background images/background.png
 .image images/manager_provider.png 350 _
 
 * Business value
-
-.background images/background.png
 
 - Less configuring, more code
 - Single point of truth
@@ -179,8 +159,6 @@ Cons:
 
 * Conclusion
 
-.background images/background.png
-
 - Dynamic configs provide more managed experience
 - Live reload
 - Secrets for sensitive info
@@ -188,8 +166,6 @@ Cons:
 - Integration with your current infrastructure
 
 * When?
-
-.background images/background.png
 
 *Tech*OZON*: [[https://github.com/ozonru][Github]]
 
