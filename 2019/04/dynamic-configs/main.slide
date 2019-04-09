@@ -4,10 +4,22 @@ Configuring your apps and services, dynamically
 Tags: golang, config, etcd, vault
 
 Ilya Danilkin
-Lead Server Developer, Tech Ozon
-idanilkin@ozon.ru
-https://habr.com/ru/company/ozontech
+Senior Server Developer, Platform Team, Tech Ozon
+nezorflame@gmail.com
+https://github.com/nezorflame
 @nezorflame
+
+* Agenda
+
+.background images/background.png
+
+- Config roundup
+- Static configs: pros & cons
+- Dynamic configs: pros & cons
+- Secrets
+- OZON implementation
+- Demo
+- Conclusion
 
 * Quick roundup on configs
 
@@ -29,6 +41,10 @@ https://habr.com/ru/company/ozontech
 
 .background images/background.png
 
+* Static configs
+
+.background images/background.png
+
 Pros:
 
 - Reliable
@@ -40,6 +56,10 @@ Cons:
 - App should be restarted on change
 
 .image images/LazyGopher.png 200 _
+
+* Dynamic configs
+
+.background images/background.png
 
 * Dynamic configs
 
@@ -83,11 +103,15 @@ Cons:
 
 .background images/background.png
 
+* Secrets
+
+.background images/background.png
+
 - Technically, still a config...
 - ...but should be separated from publicly-available config
 - Needs protection from external access
 
-.image images/BATMAN_GOPHER.png 200 _
+.image images/BATMAN_GOPHER.png 250 _
 
 * Vault
 
@@ -100,7 +124,11 @@ Cons:
 - Leasing and renewal
 - Revocation
 
-.image images/HASHICORP_GOPHERS.png 120 _
+.image images/HASHICORP_GOPHERS.png 150 _
+
+* Implementation
+
+.background images/background.png
 
 * realtime-config-go
 
@@ -110,8 +138,9 @@ Cons:
 - *Provider* interface for different config providers
 - Supports etcd, ENV, values.yaml (Helm integration), Vault
 - *Ready()* channel to lock until config is ready
+- *Kubernetes* integration (live & readychecks)
 - *Watcher* funcs for variable change
-- Utilities for config *update,*validation,*checks*
+- Utilities for config *update,*validation,*checking*
 
 * Client
 
@@ -132,6 +161,16 @@ Cons:
 
 .background images/background.png
 .image images/manager_provider.png 350 _
+
+* Business value
+
+.background images/background.png
+
+- Less configuring, more code
+- Single point of truth
+- Infrastructure integration
+
+.image images/BLUE_GOPHER.png 250 _
 
 * Demo time!
 
@@ -156,3 +195,10 @@ Cons:
 
 .image images/COMING_SOON_GOPHER.png 200 _
 
+* References
+
+- Habr: [[https://habr.com/ru/company/ozontech]]
+- Github: [[https://github.com/ozonru]]
+- Viper: [[https://github.com/spf13/viper]]
+- etcd: [[https://github.com/etcd-io/etcd]]
+- Vault: [[https://github.com/hashicorp/vault]]
