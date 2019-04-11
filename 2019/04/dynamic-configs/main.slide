@@ -21,6 +21,12 @@ https://github.com/nezorflame
 - Demo
 - Conclusion
 
+* This talk
+
+.background images/background.png
+.link https://www.ozon.ru/t/2J https://ozon.ru/t/2J
+.image images/DRAWING_GOPHER.png 250 _
+
 * Quick roundup on configs
 
     In computing, configuration files (or config files) are files used to configure the parameters
@@ -63,7 +69,7 @@ Different approaches:
 
 - Local config with live reload (e.g. [[https://github.com/spf13/viper][Viper]] + [[https://github.com/fsnotify/fsnotify][fsnotify]])
 - Remote storage (e.g. some database)
-- Distributed store (e.g. [[https://coreos.com/etcd/][etcd]], [[https://www.consul.io/][Consul]])
+- Distributed store (e.g. [[https://coreos.com/etcd/][etcd]], [[https://www.consul.io/][Consul]], [[https://zookeeper.apache.org/][ZooKeeper]])
 
 .image images/MovingGopher.png 200 _
 
@@ -99,6 +105,7 @@ Cons:
 - Technically, still a config...
 - ...but should be separated from publicly-available config
 - Needs protection from external access
+- Has production-ready solutions (e.g. [[https://www.vaultproject.io/][Vault]], [[https://square.github.io/keywhiz/][Keywhiz]])
 
 .image images/BATMAN_GOPHER.png 250 _
 
@@ -128,27 +135,33 @@ Cons:
 - *Watcher* funcs for variable change
 - Utilities for config *update,*validation,*checking*
 
+* Project structure
+
+- root package *realtimeconfig* holds all public interfaces
+- *client* is used by the services
+- *cmd* holds all the utilities
+- *etcdhelper* has helper functions for etcd client creation
+- *healthcheck* has functions for K8s health/ready checks
+- *helper* holds convenience functions
+- *internal* for implementations
+- *manager* is used by config management service
+- *mocks* holds interface mocks for tests
+- *vaulthelper* has helper functions for Vault client creation
+
 * Client
 
 .image images/client.png 400 _
-
-* Client Provider
-
-.image images/client_provider.png 350 _
 
 * Manager
 
 .image images/manager.png 350 _
 
-* Manager Provider
-
-.image images/manager_provider.png 350 _
-
-* Business value
+* Value
 
 - Less configuring, more code
-- Single point of truth
-- Infrastructure integration
+- Single point of truth for service configuration
+- Common toolset and infrastructure for all teams
+- Support from Platform team
 
 .image images/BLUE_GOPHER.png 250 _
 
@@ -175,6 +188,6 @@ Cons:
 
 - Habr: [[https://habr.com/ru/company/ozontech]]
 - Github: [[https://github.com/ozonru]]
-- Viper: [[https://github.com/spf13/viper]]
-- etcd: [[https://github.com/etcd-io/etcd]]
-- Vault: [[https://github.com/hashicorp/vault]]
+- etcd: [[https://coreos.com/etcd/]]
+- Vault: [[https://www.vaultproject.io/]]
+- Ashley McNamara: [[https://github.com/ashleymcnamara/gophers][Gophers]] artwork
