@@ -24,7 +24,7 @@ https://github.com/nezorflame
 * This talk
 
 .background images/background.png
-.link https://www.ozon.ru/t/2J https://ozon.ru/t/2J
+.link https://www.ozon.ru/t/2J https://www.ozon.ru/t/2J
 .image images/DRAWING_GOPHER.png 250 _
 
 * Quick roundup on configs
@@ -38,8 +38,6 @@ Main purposes:
 - Application setup
 - Removing sensitive info from the source
 - Changing behaviour without recompilation
-
-.image images/TEACHING_GOPHER.png 200 _
 
 * Static configs
 
