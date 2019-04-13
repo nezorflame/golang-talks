@@ -1,6 +1,6 @@
 Dynamic app configuration
 Configuring your apps and services, dynamically
-19:30 11 Apr 2019
+14:10 13 Apr 2019
 Tags: golang, config, etcd, vault
 
 Ilya Danilkin
@@ -24,7 +24,7 @@ https://github.com/nezorflame
 * This talk
 
 .background images/background.png
-.link https://www.ozon.ru/t/2J https://www.ozon.ru/t/2J
+.link https://www.ozon.ru/t/2J www.ozon.ru/t/2J
 .image images/DRAWING_GOPHER.png 250 _
 
 * Quick roundup on configs
@@ -85,6 +85,7 @@ Different approaches:
 Pros:
 
 - Live reload!
+- Enable/disable features without hassle
 - More secure
 - Can be integrated into infrastructure
 
@@ -125,34 +126,11 @@ Cons:
 
 * realtime-config-go
 
-- *Client* and *Manager* interfaces
-- *Provider* interface for different config providers
 - Supports etcd, ENV, values.yaml (Helm integration), Vault
 - *Ready()* channel to lock until config is ready
 - *Kubernetes* integration (live & readychecks)
 - *Watcher* funcs for variable change
 - Utilities for config *update,*validation,*checking*
-
-* Project structure
-
-- root package *realtimeconfig* holds all public interfaces
-- *client* is used by the services
-- *cmd* holds all the utilities
-- *etcdhelper* has helper functions for etcd client creation
-- *healthcheck* has functions for K8s health/ready checks
-- *helper* holds convenience functions
-- *internal* for implementations
-- *manager* is used by config management service
-- *mocks* holds interface mocks for tests
-- *vaulthelper* has helper functions for Vault client creation
-
-* Client
-
-.image images/client.png 400 _
-
-* Manager
-
-.image images/manager.png 350 _
 
 * Value
 
