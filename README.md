@@ -6,11 +6,11 @@ Talks about Go which I occasionally do on various meetups and conferences.
 
 ### [GopherCon Russia 2019]
 
-Same talk was given at [GopherCon 2019 pre-release] meetup and at [GoWay Meetup v2.2].
-
 [Dynamic app configuration](https://talks.godoc.org/github.com/nezorflame/golang-talks/2019/04/dynamic-configs/main.slide)
 
 [Video](https://www.youtube.com/watch?v=G8Y7pXxUtNE) (in Russian)
+
+P.S. Same talk was given at [GopherCon 2019 pre-release] meetup and at [GoWay Meetup v2.2]:
 
 ## 2018
 
