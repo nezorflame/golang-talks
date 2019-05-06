@@ -34,6 +34,8 @@ Same talk as at [GoWay meetup v1.3].
 
 [Dive into vgo: take a look at the possible future of vendoring](https://talks.godoc.org/github.com/nezorflame/golang-talks/2018/04/dive-into-vgo/dive-into-vgo.slide)
 
+[Video](https://www.youtube.com/watch?v=XjZ9bn2JgmM) (in Russian)
+
 ### [GopherCon Russia 2018]
 
 [Vendoring in Go: present and future](https://talks.godoc.org/github.com/nezorflame/golang-talks/2018/03/vendoring-in-go/vendoring.slide)
