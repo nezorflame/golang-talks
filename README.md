@@ -2,6 +2,16 @@
 
 Talks about Go which I occasionally do on various meetups and conferences.
 
+## 2020
+
+### [GoWay meetup]
+
+Same talk as at [GopherCon Russia 2020].
+
+### [GopherCon Russia 2020]
+
+[“Go, please”: language server под микроскопом](https://slides.com/nezorflame/20200809_gophercon/)
+
 ## 2019
 
 ### [GoWay Meetup v2.2]
