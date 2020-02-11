@@ -2,6 +2,14 @@
 
 Talks about Go which I occasionally do on various meetups and conferences.
 
+## 2020
+
+### [A-Level Go meetup]
+
+[“Go, please”: language server под микроскопом](https://slides.com/nezorflame/20200208_gopls#/)
+
+[Video](https://youtu.be/zwzaS8OWapY?t=7980) (in Russian)
+
 ## 2019
 
 ### [GoWay Meetup v2.2]
@@ -40,6 +48,7 @@ Same talk as at [GoWay meetup v1.3].
 
 [Vendoring in Go: present and future](https://talks.godoc.org/github.com/nezorflame/golang-talks/2018/03/vendoring-in-go/vendoring.slide)
 
+[A-Level Go meetup]: https://www.meetup.com/GolangKazan/events/267773586/
 [GoWay Meetup v2.2]: https://eventspace-by.timepad.ru/event/913557/
 [GopherCon Russia 2019]: https://www.gophercon-russia.ru/
 [GopherCon 2019 pre-release]: https://golang-moscow.timepad.ru/event/946485/
