@@ -8,7 +8,7 @@ Talks about Go which I occasionally do on various meetups and conferences.
 
 [“Go, please”: language server под микроскопом](https://slides.com/nezorflame/20200208_gopls#/)
 
-[Video](https://youtu.be/zwzaS8OWapY?t=7980) (in Russian)
+[Video](https://www.youtube.com/watch?v=rcvA5gSwj2o) (in Russian)
 
 ## 2019
 
