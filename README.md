@@ -4,11 +4,13 @@ Talks about Go which I occasionally do on various meetups and conferences.
 
 ## 2020
 
-### [A-Level Go meetup]
+### [GoWay meetup]
 
-[“Go, please”: language server под микроскопом](https://slides.com/nezorflame/20200208_gopls#/)
+Same talk as at [GopherCon Russia 2020].
 
-[Video](https://www.youtube.com/watch?v=rcvA5gSwj2o) (in Russian)
+### [GopherCon Russia 2020]
+
+[“Go, please”: language server под микроскопом](https://slides.com/nezorflame/20200809_gophercon/)
 
 ## 2019
 
