@@ -4,13 +4,15 @@ Talks about Go which I occasionally do on various meetups and conferences.
 
 ## 2020
 
-### [GoWay meetup]
-
-Same talk as at [GopherCon Russia 2020].
-
 ### [GopherCon Russia 2020]
 
 [“Go, please”: language server под микроскопом](https://slides.com/nezorflame/20200809_gophercon/)
+
+[Video](https://www.youtube.com/watch?v=h9B8y4Zd6ck&list=PLJTW0ZQ22rrEtvqbz0rxhNQTm0bkJV4Nb&index=8) (in Russian)
+
+### [GoWayFest 4.0]
+
+Same talk as at [GopherCon Russia 2020].
 
 ## 2019
 
@@ -50,11 +52,13 @@ Same talk as at [GoWay meetup v1.3].
 
 [Vendoring in Go: present and future](https://talks.godoc.org/github.com/nezorflame/golang-talks/2018/03/vendoring-in-go/vendoring.slide)
 
+[GopherCon Russia 2020]: https://www.gophercon-russia.ru/
+[GoWayFest 4.0]: https://goway.io/
 [A-Level Go meetup]: https://www.meetup.com/GolangKazan/events/267773586/
 [GoWay Meetup v2.2]: https://eventspace-by.timepad.ru/event/913557/
-[GopherCon Russia 2019]: https://www.gophercon-russia.ru/
+[GopherCon Russia 2019]: https://www.gophercon-russia.ru/2019/
 [GopherCon 2019 pre-release]: https://golang-moscow.timepad.ru/event/946485/
 [Latest and greatest Golang additions]: https://www.meetup.com/ru-RU/GettEngineering/events/253609232/
 [Go Gett meetup]: https://golang-moscow.timepad.ru/event/720881/
 [GoWay Meetup v1.3]: https://www.facebook.com/events/624759367874808/
-[GopherCon Russia 2018]: https://www.gophercon-russia.ru/2018
+[GopherCon Russia 2018]: https://www.gophercon-russia.ru/2018/
