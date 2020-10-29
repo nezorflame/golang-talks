@@ -4,6 +4,10 @@ Talks about Go which I occasionally do on various meetups and conferences.
 
 ## 2020
 
+### Go Meetup @ Innopolis
+
+[Go Modules в production](2020/08/gopls/20200809_gophercon.pdf)
+
 ### [GopherCon Russia 2020]
 
 [“Go, please”: language server под микроскопом](https://slides.com/nezorflame/20200809_gophercon/)
