@@ -6,7 +6,7 @@ Talks about Go which I occasionally do on various meetups and conferences.
 
 ### Go Meetup @ Innopolis
 
-[Go Modules в production](2020/08/gopls/20200809_gophercon.pdf)
+[Go Modules в production](2020/10/modules/Go%20Modules%20в%20production.pdf)
 
 ### [GopherCon Russia 2020]
 
