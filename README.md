@@ -2,6 +2,14 @@
 
 Talks about Go which I occasionally do on various meetups and conferences.
 
+## 2021
+
+### [GopherCon Russia 2021]
+
+#### Пакет embed: распаковка знаний
+
+[Video](https://youtu.be/B9qFCBfPyxM?list=PLJTW0ZQ22rrF13VQbakM7MBiQcKb31mpk) (in Russian)
+
 ## 2020
 
 ### Go Meetup @ Innopolis
@@ -56,9 +64,9 @@ Same talk as at [GoWay meetup v1.3].
 
 [Vendoring in Go: present and future](https://talks.godoc.org/github.com/nezorflame/golang-talks/2018/03/vendoring-in-go/vendoring.slide)
 
-[GopherCon Russia 2020]: https://www.gophercon-russia.ru/
+[GopherCon Russia 2021]: https://www.gophercon-russia.ru/
+[GopherCon Russia 2020]: https://www.gophercon-russia.ru/2020
 [GoWayFest 4.0]: https://goway.io/
-[A-Level Go meetup]: https://www.meetup.com/GolangKazan/events/267773586/
 [GoWay Meetup v2.2]: https://eventspace-by.timepad.ru/event/913557/
 [GopherCon Russia 2019]: https://www.gophercon-russia.ru/2019/
 [GopherCon 2019 pre-release]: https://golang-moscow.timepad.ru/event/946485/
